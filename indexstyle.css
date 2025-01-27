@@ -38,6 +38,7 @@ body{
 .smedia a:hover{
     text-decoration: none;
     font-size: xx-large;
+    color: tomato;
 }
 .info{
     text-align: left;

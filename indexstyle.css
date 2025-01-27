@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+
+.para1{
+    border: 1px solid rgba(113, 108, 108, 0.479);
+    border-radius: 10px;
+    padding: 2rem 2rem;
+    margin: 0 1rem;
+    font-size: 1.1em;
+    color: black;
+}
+.dest-img{
+    width: 100%;
+    border-radius: 10px;
+}
+.dest-content{
+    text-align: center;
+    color: rgba(63, 61, 61, 0.58);
+}
+.contactform{
+    border: 1px solid black;
+    border-radius: 12px;
+    font-size: larger;
+}
+
+.smedia{
+    font-size: x-large;
+    padding: 5px 0px;
+    text-align: center;
+}
+.smedia a{
+    margin: 0px 10px;
+}
+.smedia a:hover{
+    text-decoration: none;
+    font-size: xx-large;
+}
+.info{
+    text-align: left;
+}
+#headerText1{
+    display: none;
+}
+
+@media (max-width:1000px){
+    #headerText{
+        display: none;
+    }
+    #headerText1{
+        display: inline;
+    }
+}

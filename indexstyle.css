@@ -3,6 +3,7 @@
 }
 body{
     margin: 0;
+    padding: 0;
 }
 
 .para1{
@@ -53,5 +54,6 @@ body{
     }
     #headerText1{
         display: inline;
+        font-size: x-large;
     }
 }
